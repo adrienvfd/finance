@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quotation for {{ name }}
+{% endblock %}
+
+{% block main %}
+    <div class="form-group"><b>Company Name:</b> {{ name }} </div>
+    <div class="form-group"><b>Share Symbol:</b> {{ symbol }} </div>
+    <dic class="form-group"><b>Latest Price:</b> {{ price }} </div>
+{% endblock main %}
